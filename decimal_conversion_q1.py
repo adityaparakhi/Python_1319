@@ -16,7 +16,7 @@ octal_form = oct(num)  # Converts into Octal number
 print("Octal form of Input Number is ", octal_form)  # Display Octal number in Console
 print("=================================")
 
-# Converting that number into Octal
-hexa_form = hex(num)  # Converts into Octal number
+# Converting that number into Hexadecimal
+hexa_form = hex(num)  # Converts into Hexadecimal number
 print("Hexadecimal form of Input Number is ", hexa_form)  # Display Hexaecimal number in Console
 print("==================================")
