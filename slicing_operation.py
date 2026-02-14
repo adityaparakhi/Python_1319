@@ -61,6 +61,7 @@ print("\n===================================\n")
 print("Positive Step Size [start : end : +step] ->>")
 
 # name[start : end : +step]
+# If step is positive → movement is left ➝ right
 print("0 to 23 step 1: ", name[0:23:1])  # Starts at index 0, prints normally till index 22
 print("1 to 20 step 3: ", name[1:20:3])  # Starts at index 1, jumps 3 characters each time
 print("4 to 24 step 2: ", name[4:24:2])  # Starts at index 4, prints every 2nd character
@@ -74,6 +75,7 @@ print("\n===================================\n")
 print("Negative Step Size [start : end : -step] ->>")
 
 # name[start : end : -step]
+# If step is negative → movement is right ➝ left
 print("23 to last step -1: ", name[23::-1])  # Starts at index 23, moves backward one by one
 print("23 to 0 step -2: ", name[23:0:-2])  # Starts at index 23, jumps 2 positions backward
 print("20 to 5 step -3: ", name[20:5:-3])  # Starts at index 20, moves back 3 steps each time
