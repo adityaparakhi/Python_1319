@@ -1,33 +1,65 @@
-# Q1. Accept decimal no from console/terminal and convert that into binary, octal,hexadecimal number system and display back on terminal again.
-->> 
-Enter the Number: 6
-Binary form of Input Number is  0b110    
-=================================        
-Octal form of Input Number is  0o6       
-=================================        
-Hexadecimal form of Input Number is  0x6 
-==================================   
+# Python String Slicing Output
+
+## Name:
+Aditya Rajendra Parakhi
 
 
+## Output
 
-# Q2. Accept binary, octal, hexadecimal from user and convert it into decimal number and display on screen/terminal/console
-->> 
-Enter number in binary, octal, or hexadecimal format: 0b0110
-Enter the base (2 = binary, 8 = octal, 16 = hexadecimal): 2
-=================================        
-Decimal form of Input Number is  6       
-=================================       
+===================================
+Total Length of String ->> 23      
 
+===================================
 
-Enter number in binary, octal, or hexadecimal format: 0o12
-Enter the base (2 = binary, 8 = octal, 16 = hexadecimal): 8
-=================================        
-Decimal form of Input Number is  10      
-=================================     
+Start Positive + End Positive ->>  
+From 0 to 8:  Aditya R
+From 0 to 11:  Aditya Raje
+From 0:  Aditya Rajendra Parakhi   
+From 6 to 20:   Rajendra Para      
+From 12 to 18:  dra Pa
 
+===================================
 
-Enter number in binary, octal, or hexadecimal format: 100
-Enter the base (2 = binary, 8 = octal, 16 = hexadecimal): 16
-=================================
-Decimal form of Input Number is  256
-=================================
+Start Negative + End Negative ->>  
+From -20 to -17:  tya
+From -16 to -1:  Rajendra Parakh   
+From -10 to -3:  ra Para
+From -8 to -2:   Parak
+From -12:  ndra Parakhi
+
+===================================
+
+Start Positive + End Negative ->>  
+From 0 to -8:  Aditya Rajendra     
+From 2 to -10:  itya Rajend        
+From 5 to -7:  a Rajendra 
+From 8 to -3:  ajendra Para        
+From 12 to -1:  dra Parakh
+
+===================================
+
+Start Negative + End Positive ->>  
+From -19 to 6:  ya
+From -21 to 9:  itya Ra
+From -10 to 22:  ra Parakh
+From -12 to 18:  ndra Pa
+From -9 to 23:  a Parakhi
+
+===================================
+
+Positive Step Size [start : end : +step] ->>
+0 to 23 step 1:  Aditya Rajendra Parakhi
+1 to 20 step 3:  dyRerPa
+4 to 24 step 2:  y aedaPrki
+3 to 21 step 4:  tRn a
+6 to 22 step 5:   nPh
+
+===================================
+
+Negative Step Size [start : end : -step] ->>
+23 to last step -1:  ihkaraP ardnejaR aytidA
+23 to 0 step -2:  ikrPadea yi
+20 to 5 step -3:  kaana
+18 to 2 step -2:  rPadea y
+15 to 1 step -4:   nRt
+
