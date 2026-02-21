@@ -1,65 +1,22 @@
-# Python String Slicing Output
+# Python List Operation Output
 
-## Name:
-Aditya Rajendra Parakhi
+=====================
+|| List Operations ||
+=====================
 
+RCB 2025 Players Names -->
 
-## Output
+['1. Philip Salt (WK-Batter)', '2. Virat Kohli (Batter)', '3. Mayank Agarwal (Batter)', '4. Rajat Patidar (c) (Batter)', '5. Liam Livingstone (Batting All-Rounder)', '6. Jitesh Sharma (Wicket-Keeper / Batter)', '7. Romario Shepherd (All-Rounder)', '8. Krunal Pandya (Batting All-Rounder)', '9. Bhuvneshwar Kumar (Bowler)', '10. Yash Dayal (Bowler)', '11. Josh Hazlewood (Bowler)']
+===========================================================================================================================================================================================
 
-===================================
-Total Length of String ->> 23      
+PBKS 2025 Players Names -->
+['1. Priyansh Arya (Batter)', '2. Josh Inglis (WK-Batter)', '3. Shreyas Iyer (c) (Batter)', '4. Nehal Wadhera (Batter)', '5. Shashank Singh (Batting All-Rounder)', '6. Marcus Stoinis (Batting All-Rounder)', '7. Azmatullah Omarzai (Bowling All-Rounder)', '8. Kyle Jamieson (Bowler)', '9. Vijaykumar Vyshak (Bowler)', '10. Arshdeep Singh (Bowler)', '11. Yuzvendra Chahal (Bowler)']
+===========================================================================================================================================================================================
 
-===================================
+MI 2025 Players Names -->
+['1. Rohit Sharma (Batter)', '2. Ishan Kishan (WK-Batter)', '3. Suryakumar Yadav (Batter)', '4. Tilak Varma (Batter)', '5. Hardik Pandya (c) (All-Rounder)', '6. Tim David (Batting All-Rounder)', '7. Nehal Wadhera (Batter)', '8. Piyush Chawla (Bowler)', '9. Jasprit Bumrah (Bowler)', '10. Gerald Coetzee (Bowler)', '11. Akash Madhwal (Bowler)']
+===========================================================================================================================================================================================
 
-Start Positive + End Positive ->>  
-From 0 to 8:  Aditya R
-From 0 to 11:  Aditya Raje
-From 0:  Aditya Rajendra Parakhi   
-From 6 to 20:   Rajendra Para      
-From 12 to 18:  dra Pa
-
-===================================
-
-Start Negative + End Negative ->>  
-From -20 to -17:  tya
-From -16 to -1:  Rajendra Parakh   
-From -10 to -3:  ra Para
-From -8 to -2:   Parak
-From -12:  ndra Parakhi
-
-===================================
-
-Start Positive + End Negative ->>  
-From 0 to -8:  Aditya Rajendra     
-From 2 to -10:  itya Rajend        
-From 5 to -7:  a Rajendra 
-From 8 to -3:  ajendra Para        
-From 12 to -1:  dra Parakh
-
-===================================
-
-Start Negative + End Positive ->>  
-From -19 to 6:  ya
-From -21 to 9:  itya Ra
-From -10 to 22:  ra Parakh
-From -12 to 18:  ndra Pa
-From -9 to 23:  a Parakhi
-
-===================================
-
-Positive Step Size [start : end : +step] ->>
-0 to 23 step 1:  Aditya Rajendra Parakhi
-1 to 20 step 3:  dyRerPa
-4 to 24 step 2:  y aedaPrki
-3 to 21 step 4:  tRn a
-6 to 22 step 5:   nPh
-
-===================================
-
-Negative Step Size [start : end : -step] ->>
-23 to last step -1:  ihkaraP ardnejaR aytidA
-23 to 0 step -2:  ikrPadea yi
-20 to 5 step -3:  kaana
-18 to 2 step -2:  rPadea y
-15 to 1 step -4:   nRt
-
+GT 2025 Players Names -->
+['1. Shubman Gill (c) (Batter)', '2. Wriddhiman Saha (WK-Batter)', '3. Sai Sudharsan (Batter)', '4. David Miller (Batter)', '5. Vijay Shankar (All-Rounder)', '6. Rahul Tewatia (All-Rounder)', '7. Rashid Khan (Bowler)', '8. Noor Ahmad (Bowler)', '9. Mohit Sharma (Bowler)', '10. Mohammed Shami (Bowler)', '11. Spencer Johnson (Bowler)']
+===========================================================================================================================================================================================
