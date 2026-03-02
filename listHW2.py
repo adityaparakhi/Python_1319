@@ -16,9 +16,10 @@
 
 # Q1.exact same check for list is Home Work
 
+# Create list
 lst = []
 
-lst.append(100)      # add element inside list
+lst.append(100)
 lst.append(False)
 lst.append(100)
 lst.append("Sai")
@@ -26,9 +27,58 @@ lst.append(100)
 lst.append(False)
 lst.append(10.6)
 
-print(lst)
-print("Length of list:", len(lst))
-print(type(lst))
+print("Original List:", lst)
+print("Length:", len(lst))
+print("Type:", type(lst))
+
+
+# append()
+lst.append("New")
+print("\nAfter append('New'):", lst)
+
+
+# insert()
+lst.insert(1, "Insert")
+print("After insert(1, 'Insert'):", lst)
+
+
+# remove()
+lst.remove(100)   # removes first occurrence
+print("After remove(100):", lst)
+
+
+# pop()
+removed_value = lst.pop()   # removes last element
+print("After pop():", lst)
+print("Popped value:", removed_value)
+
+removed_index = lst.pop(2)  # removes element at index 2
+print("After pop(2):", lst)
+print("Popped index value:", removed_index)
+
+
+# count()
+print("Count of 100:", lst.count(100))
+
+
+# index()
+print("Index of 'Sai':", lst.index("Sai"))
+
+
+# reverse()
+lst.reverse()
+print("After reverse():", lst)
+
+
+# sort() (separate numeric list)
+nums = [5, 2, 8, 1]
+nums.sort()
+print("Sorted nums list:", nums)
+
+
+# clear()
+lst.clear()
+print("After clear():", lst)
 
 
 
