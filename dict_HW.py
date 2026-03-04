@@ -54,7 +54,7 @@ movies_db["Baaghi 4"] = cast_baaghi_4
 
 
 # Print full Dictionary
-print("Total data of 2025 released movies with its cast is --->\n", movies_db)
+print("Total 2025 released movies with its cast is --->\n", movies_db)
 print("\n===================================================================================================\n")
 
 # 1. Print all keys using keys() method from dictionary
