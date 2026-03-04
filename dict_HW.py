@@ -92,3 +92,15 @@ for m in movies_db:
         count += 1
 
 print(f"{cast} worked in {count} movie.")
+print("\n===================================================================================================\n")
+
+
+
+# 5. Count how many times letter 'a' appears in all cast names
+letter_count = 0
+
+for cast_list in movies_db.values():      # loop through all movie casts
+    for actor in cast_list:               # loop through each actor name
+        letter_count += actor.lower().count('a')   # count 'a' in each name
+
+print("\nTotal number of 'a' letters in all cast names is:", letter_count)
