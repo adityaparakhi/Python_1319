@@ -1,0 +1,138 @@
+PYTHON DATA TYPE ARITHMETIC OPERATIONS CHART
+============================================
+
+Data Types Covered:
+int, float, bool, str, list, tuple, set, dict
+
+Operators:
++   Addition / Concatenation
+-   Subtraction
+*   Multiplication / Repetition
+/   Division
+//  Floor Division
+
+Legend:
+✓  = Works
+✗  = Not Supported / Error
+
+
+------------------------------------------------
+1. ADDITION (+)
+------------------------------------------------
+int + int        ✓   Example: 5 + 3 = 8
+int + float      ✓   Example: 5 + 2.5 = 7.5
+int + bool       ✓   Example: 5 + True = 6
+float + float    ✓   Example: 2.5 + 1.5 = 4.0
+bool + bool      ✓   Example: True + True = 2
+
+str + str        ✓   Example: "Hello" + "World" = HelloWorld
+
+list + list      ✓   Example: [1,2] + [3,4] = [1,2,3,4]
+
+tuple + tuple    ✓   Example: (1,2) + (3,4) = (1,2,3,4)
+
+set + set        ✗   Not supported
+dict + dict      ✗   Not supported
+
+
+------------------------------------------------
+2. SUBTRACTION (-)
+------------------------------------------------
+int - int        ✓   Example: 10 - 5 = 5
+int - float      ✓   Example: 10 - 2.5 = 7.5
+float - float    ✓   Example: 2.5 - 1.2 = 1.3
+bool - bool      ✓   Example: True - False = 1
+
+set - set        ✓   Example: {1,2,3} - {2} = {1,3}
+
+str - str        ✗   Not supported
+list - list      ✗   Not supported
+tuple - tuple    ✗   Not supported
+dict - dict      ✗   Not supported
+
+
+------------------------------------------------
+3. MULTIPLICATION (*)
+------------------------------------------------
+int * int        ✓   Example: 5 * 3 = 15
+int * float      ✓   Example: 5 * 2.5 = 12.5
+float * float    ✓   Example: 2.5 * 2 = 5.0
+bool * int       ✓   Example: True * 5 = 5
+
+str * int        ✓   Example: "Hi" * 3 = HiHiHi
+
+list * int       ✓   Example: [1,2] * 2 = [1,2,1,2]
+
+tuple * int      ✓   Example: (1,2) * 2 = (1,2,1,2)
+
+set * int        ✗   Not supported
+dict * int       ✗   Not supported
+
+
+------------------------------------------------
+4. DIVISION (/)
+------------------------------------------------
+int / int        ✓   Example: 10 / 2 = 5.0
+int / float      ✓   Example: 10 / 2.5 = 4.0
+float / float    ✓   Example: 2.5 / 1.5 = 1.66
+bool / int       ✓   Example: True / 2 = 0.5
+
+str / str        ✗   Not supported
+list / int       ✗   Not supported
+tuple / int      ✗   Not supported
+set / set        ✗   Not supported
+dict / dict      ✗   Not supported
+
+
+------------------------------------------------
+5. FLOOR DIVISION (//)
+------------------------------------------------
+int // int       ✓   Example: 10 // 3 = 3
+int // float     ✓   Example: 10 // 2.5 = 4.0
+float // float   ✓   Example: 2.5 // 1.5 = 1.0
+bool // int      ✓   Example: True // 2 = 0
+
+str // str       ✗   Not supported
+list // int      ✗   Not supported
+tuple // int     ✗   Not supported
+set // set       ✗   Not supported
+dict // dict     ✗   Not supported
+
+
+------------------------------------------------
+IMPORTANT PYTHON NOTES
+------------------------------------------------
+
+1. Boolean values behave like integers
+True  = 1
+False = 0
+
+Examples:
+True + True = 2
+True * 5 = 5
+
+
+2. Concatenation using +
+Works only with:
+string + string
+list + list
+tuple + tuple
+
+
+3. Repetition using *
+Works with:
+string * int
+list * int
+tuple * int
+
+
+4. Sets use special operators
+
+Union:
+set1 | set2
+
+Intersection:
+set1 & set2
+
+Difference:
+set1 - set2
