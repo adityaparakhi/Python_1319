@@ -1,18 +1,6 @@
-Output works -->
+# Flow Control Sttatement
+#if-else statement
 
-int + int = 15
-int - int = 5
-True + True = 2
-string + string = HelloWorld
-list + list = [1, 2, 3, 4]
-tuple * int = (1, 2, 1, 2)
-set - set = {1, 3}
-
-
-Operations like these will give error, so they are not written in code:
-
-string - string
-list - list
-dict + dict
-set + set
-tuple - tuple
+Original Marks: [100, 67, 87, 78, 79, 74, 59, 66, 73, 82, 99, 68, 45, 38]
+Even Marks: [100, 78, 74, 66, 82, 68, 38]
+Odd Marks: [67, 87, 79, 59, 73, 99, 45]  
