@@ -1,24 +1,16 @@
-==================================
-==================================
+++++++++++++++++++++++++++++++++++++
+List Comprehension and Set Comprehension
+++++++++++++++++++++++++++++++++++++
 
---- Palindrome Check ---
-Given Number:  121
-Output:  Palindrome
-==================================       
-==================================       
+Original List 1:  [1, 2]
+Original List 2:  ['a', 'b']
 
---- Reverse Number ---
-Given Number:  1234
-Output:  4321
-==================================       
-==================================       
+Output using normal loop: [(1, 'a'), (1, 'b'), (2, 'a'), (2, 'b')]       
+Original List 1:  [1, 2]
+Original List 2:  ['a', 'b']
 
---- Even or Odd ---
-Given Number:  7
-Output:  Odd
-==================================       
-==================================       
+Output using list comprehension: [(1, 'a'), (1, 'b'), (2, 'a'), (2, 'b')]
+Original List 1:  [1, 2]
+Original List 2:  ['a', 'b']
 
---- Prime Number ---
-Givn Number:  7
-Output:  Prime Number
+Output using set comprehension: {(1, 'a'), (2, 'b'), (2, 'a'), (1, 'b')} 
